@@ -13,7 +13,7 @@ module.exports = {
         // getUser랑 getMember의 차이점이 뭐냐
         const user = interaction.options.getUser('target');
 
-        if (member) {
+        if (user) {
             return interaction.reply(`${user.username}'s avatar: ${user.displayAvatarURL({ dynamic: true })}`);
         } else {
             return interaction.reply(`Your avatar: ${interaction.user.displayAvatarURL()}`);

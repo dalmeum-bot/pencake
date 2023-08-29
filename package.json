@@ -10,11 +10,13 @@
     "ansi-regex": "^5.0.1",
     "ansi-styles": "^4.3.0",
     "argparse": "^2.0.1",
+    "axios": "^1.4.0",
     "balanced-match": "^1.0.2",
     "brace-expansion": "^1.1.11",
     "busboy": "^1.6.0",
     "callsites": "^3.1.0",
     "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
     "color-convert": "^2.0.1",
     "color-name": "^1.1.4",
     "concat-map": "^0.0.1",
@@ -79,6 +81,7 @@
     "prelude-ls": "^1.2.1",
     "punycode": "^2.3.0",
     "queue-microtask": "^1.2.3",
+    "request": "^2.88.2",
     "resolve-from": "^4.0.0",
     "reusify": "^1.0.4",
     "rimraf": "^3.0.2",
@@ -101,10 +104,8 @@
     "ws": "^8.13.0",
     "yocto-queue": "^0.1.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "build": "node src/deploy-command.js",
-    "run": "npm run build && node ."
+    "run": "node ."
   },
   "keywords": [],
   "author": "",

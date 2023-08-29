@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2babd101-149d-45cf-b034-f45a144a7e73" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/commands/utility/unixtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/utility/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/utility/timestamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/utility/번역.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/moderator/kick.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/moderator/kick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/utility/avatar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/utility/avatar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/utility/unixtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deploy-command.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/events/ready.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/events/ready.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +38,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: -1
+  &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2TrPTw15YBKxKIVm16PhiU9kGzy" />
   <component name="ProjectLevelVcsManager">
@@ -49,33 +57,29 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/repos/rhseung/pencake/src/commands/utility",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "ts.external.directory.path": "C:\\Users\\rhseung\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\repos\rhseung\pencake\src\commands\utility" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\repos\rhseung\pencake\src\commands\utility" />
+      <recent name="D:\repos\rhseung\pencake\src\commands\search" />
       <recent name="D:\repos\rhseung\pencake\src\commands\fun" />
       <recent name="D:\repos\rhseung\pencake\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.run">
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="run" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -89,7 +93,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.run" />
-        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +114,12 @@
       <workItem from="1691921964758" duration="8690000" />
       <workItem from="1691938729592" duration="97000" />
       <workItem from="1691939352634" duration="1701000" />
-      <workItem from="1691968241805" duration="1811000" />
+      <workItem from="1691968241805" duration="18413000" />
+      <workItem from="1692059677002" duration="10913000" />
+      <workItem from="1692179772628" duration="596000" />
+      <workItem from="1692228370914" duration="568000" />
+      <workItem from="1692233766894" duration="30000" />
+      <workItem from="1692233807291" duration="108000" />
     </task>
     <servers />
   </component>

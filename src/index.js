@@ -71,6 +71,8 @@ deployEvents = (client) => {
     });
 };
 
+client.on()
+
 deployCommands(client, token, clientId, guildId);
 deployEvents(client);
 client.login(token);
